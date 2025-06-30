@@ -85,22 +85,22 @@ function showAnswer(){
     }
     switch (result[4]) {
         case "金":
-            resistanceValueString = resistanceValueString + "±5%Ω"
+            resistanceValueString = resistanceValueString + "Ω±5%"
             break;
         case "銀":
-            resistanceValueString = resistanceValueString + "±10%Ω"
+            resistanceValueString = resistanceValueString + "Ω±10%"
             break;
         case "無":
-            resistanceValueString = resistanceValueString + "±20%Ω"
+            resistanceValueString = resistanceValueString + "Ω±20%"
             break;
         case "茶":
-            resistanceValueString = resistanceValueString + "±1%Ω"
+            resistanceValueString = resistanceValueString + "Ω±1%"
             break;
         case "赤":
-            resistanceValueString = resistanceValueString + "±2%Ω"
+            resistanceValueString = resistanceValueString + "Ω±2%"
             break;
         case "緑":
-            resistanceValueString = resistanceValueString + "±0.5%Ω"
+            resistanceValueString = resistanceValueString + "Ω±0.5%"
             break;
     }
     document.getElementById("answer").innerText = resistanceValueString;
